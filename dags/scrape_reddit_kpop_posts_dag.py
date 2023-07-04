@@ -15,7 +15,6 @@ from airflow.operators.empty import EmptyOperator
 from airflow.utils.task_group import TaskGroup
 from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
 from operators.delete_files_operator import DeleteFilesOperator
-
 from operators.upload_files_to_s3_operator import UploadFilesToS3Operator
 from utils.common_util import get_current_datetime, get_formatted_date, get_formatted_timestamp
 from utils.common_util import get_sql
